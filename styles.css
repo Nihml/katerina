@@ -1,0 +1,57 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* Προσαρμόζουμε τα χρώματα για τη δεύτερη σελίδα */
+body.contact {
+    background-color: #f9f9f9;
+}
+
+h1.contact {
+    color: #555;
+}
+
+ul.contact {
+    background-color: #555;
+}
+
+li.contact a {
+    color: #fff;
+}
+
+li.contact a:hover {
+    background-color: #333;
+}
