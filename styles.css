@@ -1,57 +1,85 @@
-/* style.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f0f8ff;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    color: #333;
+header {
+    background-color: #ffcccb;
+    padding: 20px;
     text-align: center;
+}
+
+h1 {
+    color: #0056b3;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
 }
 
-li {
-    float: left;
+ul li {
+    display: inline;
+    margin-right: 10px;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+a {
     text-decoration: none;
+    color: #0056b3;
 }
 
-li a:hover {
-    background-color: #111;
+a:hover {
+    text-decoration: underline;
 }
 
-/* Προσαρμόζουμε τα χρώματα για τη δεύτερη σελίδα */
-body.contact {
-    background-color: #f9f9f9;
+main {
+    padding: 20px;
 }
 
-h1.contact {
-    color: #555;
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
-ul.contact {
-    background-color: #555;
+img {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    height: auto;
 }
 
-li.contact a {
-    color: #fff;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
 
-li.contact a:hover {
-    background-color: #333;
+table, th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #ffa07a;
+    color: white;
+}
+
+td {
+    background-color: #fff;
+}
+
+h2 {
+    color: #32cd32;
+}
+
+p {
+    color: #ff4500;
 }
